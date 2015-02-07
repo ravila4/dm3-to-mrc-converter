@@ -10,4 +10,5 @@ Place apropriate file under:&nbsp;&nbsp;&nbsp; home/$USER/.local/share/nautilus/
 Place apropriate file under:&nbsp;&nbsp;&nbsp; home/$USER/.gnome2/nemo-scripts
 
 An example of the script's usage:
+
 <img src="http://i.imgur.com/J5XCDF1.png" title="nemo_context_menu_screenshot.png" /></a>
