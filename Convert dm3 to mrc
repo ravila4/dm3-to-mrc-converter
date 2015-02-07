@@ -1,0 +1,18 @@
+#!/bin/bash -i
+
+# Ricardo Avila 2014
+#
+# A script for converting .dm3 micrographs to .mrc format from the nemo file browser GUI.
+# Place this file under /home/ravila/.gnome2/nemo-scripts & access from the right-click menu.
+#
+
+filename=$NEMO_SCRIPT_SELECTED_FILE_PATHS
+
+for filename
+
+do 
+    rootname=${filename%.dm3}
+    proc2d $filename $rootname.mrc mrc8bit
+done
+
+
