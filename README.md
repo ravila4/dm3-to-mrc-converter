@@ -4,8 +4,8 @@ A shell script for batch converting .dm3 micrographs to .mrc format from the nau
 
 
 ####For Nautilus (Ubuntu):
-Place apropriate file under: > home/$USER/.local/share/nautilus/scripts
+Place apropriate file under:&nbsp;&nbsp;&nbsp; home/$USER/.local/share/nautilus/scripts
 
 ####For Nemo (Linux Mint):
-Place apropriate file under: > home/$USER/.gnome2/nemo-scripts
+Place apropriate file under:&nbsp;&nbsp;&nbsp; home/$USER/.gnome2/nemo-scripts
 
