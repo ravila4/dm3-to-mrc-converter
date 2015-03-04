@@ -12,3 +12,5 @@ Place apropriate file under:&nbsp;&nbsp;&nbsp; /home/$USER/.gnome2/nemo-scripts
 An example of the script's usage:
 
 <img src="http://i.imgur.com/J5XCDF1.png" title="nemo_context_menu_screenshot.png" /></a>
+
+There is also a script (command-line-converter) for converting directly from the terminal. If using this script, I suggest adding an alias for it in bashrc.
