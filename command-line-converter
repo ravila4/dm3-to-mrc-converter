@@ -1,0 +1,23 @@
+#!/bin/sh
+# Ricardo Avila 2015
+# Script for batch converting dm3 files to mrc format
+# This one only works from a terminal
+
+filenames=$*
+
+if [ $# -eq 0 ]
+	then
+		echo 'No files found. Usage: DM3toMRC <path or wildcard to DM3 files>'
+
+	else
+
+		for f in $filenames; do
+			echo "Converting $f"
+			r=${f%.dm3}
+			proc2d $f $r.mrc mrc8bit
+		done
+
+		echo
+		echo "Job completed."
+
+fi
