@@ -7,7 +7,7 @@ filenames=$*
 
 if [ $# -eq 0 ]
 	then
-		echo 'No files found. Usage: DM3toMRC <path or wildcard to DM3 files>'
+		echo "No files found. Usage: DM3toMRC <path or wildcard to DM3 files>"
 
 	else
 
